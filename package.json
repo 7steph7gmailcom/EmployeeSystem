@@ -1,0 +1,28 @@
+{
+  "name": "Employee_db",
+  "version": "1.0.0",
+  "description": "employee database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node run seeds/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.5",
+    "mysql2": "^2.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7steph7gmailcom/Employee-Managment-System.git"
+  },
+  "bugs": {
+    "url": "https://github.com/7steph7gmailcom/Employee-Managment-System/issues"
+  },
+  "homepage": "https://github.com/7steph7gmailcom/Employee-Managment-System#readme",
+  "keywords": []
+}
